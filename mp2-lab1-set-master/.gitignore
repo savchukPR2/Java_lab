@@ -28,7 +28,6 @@
 *.app
 *.bin
 *.check_cache
-*.cmake
 *.db
 *.idb
 *.iobj
