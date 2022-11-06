@@ -1,8 +1,8 @@
-# Install script for directory: W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/test
+# Install script for directory: W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/set")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/set")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

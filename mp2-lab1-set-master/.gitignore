@@ -28,6 +28,7 @@
 *.app
 *.bin
 *.check_cache
+*.cmake
 *.db
 *.idb
 *.iobj
@@ -41,7 +42,6 @@
 *.recipe
 *.sqlite
 *.tlog
-*.txt
 *.user
 *.vcxproj
 *dotfile

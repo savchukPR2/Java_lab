@@ -1,8 +1,8 @@
-# Install script for directory: W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master
+# Install script for directory: W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/set")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/set")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,22 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/build/src/cmake_install.cmake")
+  include("W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/build/samples/cmake_install.cmake")
+  include("W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/build/samples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/build/gtest/cmake_install.cmake")
+  include("W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/build/gtest/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/build/test/cmake_install.cmake")
+  include("W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "W:/Все для учебы/2 курс/АиСД/mp2-lab1-set-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "W:/Все для учебы/2 курс/Java/Java_lab/mp2-lab1-set-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
