@@ -34,6 +34,7 @@ public class Main {
         Store Store = new Store();
         System.out.println("Biggest price: " + Store.getBiggestPrice());
         System.out.println("Most popular brand: " + Store.getMostPopularBrand());
+        Store.setTimeAllWatches(Interface.Arrow.Hours, 10);
         System.out.println("All brands:");
         Store.printAllBrands();
     }

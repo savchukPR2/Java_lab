@@ -40,6 +40,12 @@ public class Store
         return reaction;
     }
 
+    public void setTimeAllWatches(Interface.Arrow type, int Value){
+        for (Watch o: list){
+            o.setTime(type, Value);
+        }
+    }
+
     public void printAllBrands()
     {
         for (Watch o : list) {
